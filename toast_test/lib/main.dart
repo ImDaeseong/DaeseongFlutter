@@ -10,27 +10,27 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'toast_test',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const MainScreen(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class MainScreen extends StatefulWidget {
+  const MainScreen({super.key});
 
   @override
-  State<MyHomePage> createState() => MyHomePageState();
+  State<MainScreen> createState() => MainScreenState();
 }
 
-class MyHomePageState extends State<MyHomePage> {
+class MainScreenState extends State<MainScreen> {
 
   GlobalKey globalKey = GlobalKey();
   Uint8List? capturedPng;

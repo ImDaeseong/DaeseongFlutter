@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MaterialApp Button Test',
+      debugShowCheckedModeBanner: false,
+      title: 'button_test',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -35,7 +36,7 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
 
       appBar: AppBar(
-        title: const Text('Scaffold Button Test'),
+        title: const Text('button_test'),
       ),
 
       body: const Center(
