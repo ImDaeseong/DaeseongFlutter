@@ -1,4 +1,4 @@
-name: button_test
+name: countdownlabel
 description: "A new Flutter project."
 publish_to: 'none'
 
@@ -11,8 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
 
+  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +21,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+

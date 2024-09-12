@@ -29,10 +29,12 @@ class MainScreenState extends State<MainScreen> {
       appBar: AppBar(
         title: const Text('toast-test'),
       ),
+
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
+
             CheckBoxState(
               text: 'check1',
               value: bClick1,
